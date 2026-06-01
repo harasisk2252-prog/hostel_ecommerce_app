@@ -5,7 +5,7 @@ name: "Maggi (2-pack)",
 price: 30,
 category: "Food",
 inStock: true,
-img: "./assets/maggi.jpg"
+img: "./assets/maggi.jfif"
 },
 {
 id: 2,
@@ -13,7 +13,7 @@ name: "Bread (1 loaf)",
 price: 40,
 category: "Food",
 inStock: true,
-img: "./assets/bread.jfif"
+img: "./assets/bread.jpg"
 },
 {
 id: 3,
@@ -21,7 +21,7 @@ name: "Amul Milk (500ml)",
 price: 28,
 category: "Food",
 inStock: true,
-img: "./assets/amul-milk.jpg"
+img: "./assets/amul-milk.jfif"
 },
 {
 id: 4,
@@ -29,7 +29,7 @@ name: "Banana (6 pcs)",
 price: 45,
 category: "Food",
 inStock: true,
-img: "./assets/banana.jfif"
+img: "./assets/bananas.jfif"
 },
 {
 id: 5,
@@ -46,7 +46,7 @@ name: "Classmate Notebook (200 pages)",
 price: 60,
 category: "Stationery",
 inStock: true,
-img: "./assets/notebook.jfif"
+img: "./assets/notebook.jpg"
 },
 {
 id: 7,
@@ -54,7 +54,7 @@ name: "Reynolds Pen Pack",
 price: 35,
 category: "Stationery",
 inStock: true,
-img: "./assets/pen.jfif"
+img: "./assets/pens.jfif"
 },
 {
 id: 8,
@@ -79,7 +79,7 @@ name: "Lux Soap",
 price: 35,
 category: "Toiletries",
 inStock: true,
-img: "./assets/soap.jfif"
+img: "./assets/soap.jpg"
 },
 {
 id: 11,
@@ -103,7 +103,7 @@ name: "Oral-B Toothbrush",
 price: 20,
 category: "Toiletries",
 inStock: true,
-img: "./assets/toothbrush.jpg"
+img: "./assets/toothbrush.jfif"
 },
 {
 id: 14,
