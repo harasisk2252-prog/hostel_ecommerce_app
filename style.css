@@ -1,0 +1,131 @@
+:root{
+  --hm-bg:#ffffff;
+  --hm-text:#111827;
+  --hm-muted:#6b7280;
+  --hm-card:#ffffff;
+  --hm-border:#e5e7eb;
+  --hm-header:#131921;
+  --hm-headerText:#ffffff;
+  --hm-accent:#febd69;
+  --hm-accent2:#f3a847;
+}
+
+body{
+  background: var(--hm-bg);
+  color: var(--hm-text);
+}
+
+.hm-header{
+  background: var(--hm-header);
+  color: var(--hm-headerText);
+}
+.hm-header .navbar{
+  background: transparent;
+}
+.hm-header .navbar-brand,
+.hm-header .nav-link{
+  color: var(--hm-headerText) !important;
+}
+
+.hm-logo{
+  width:34px;height:34px;
+  display:inline-grid;place-items:center;
+  border-radius:6px;
+  background: var(--hm-accent);
+  color:#111;
+  font-weight:800;
+  letter-spacing:0.5px;
+}
+
+.hm-search .input-group-text{
+  background: #fff;
+  border: none;
+}
+.hm-search .form-control{
+  border: none;
+}
+.hm-search{
+  background:#fff;
+  border-radius: 8px;
+  overflow:hidden;
+}
+
+.hm-cart-btn{
+  background: var(--hm-accent);
+  border-color: var(--hm-accent2);
+  font-weight: 700;
+}
+.hm-cart-btn:hover{
+  background: var(--hm-accent2);
+  border-color: var(--hm-accent2);
+}
+
+.hm-btn{
+  border-color: rgba(255,255,255,0.35);
+}
+
+.hm-muted{ color: var(--hm-muted) !important; }
+
+.hm-card{
+  background: var(--hm-card);
+  border-color: var(--hm-border);
+}
+
+.product-card{
+  height: 100%;
+  border-color: var(--hm-border);
+}
+.product-card .card-img-top{
+  height: 180px;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+.product-card .price{
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.product-card .cat-badge{
+  background: #eef2ff;
+  color: #3730a3;
+}
+
+.cart-item{
+  border: 1px solid var(--hm-border);
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--hm-card);
+}
+.cart-item .title{
+  font-weight: 700;
+}
+
+.hm-modal{
+  background: var(--hm-card);
+  color: var(--hm-text);
+}
+
+/* Dark mode */
+body.hm-dark{
+  --hm-bg:#0b1220;
+  --hm-text:#e5e7eb;
+  --hm-muted:#9ca3af;
+  --hm-card:#0f172a;
+  --hm-border:#22304a;
+  --hm-header:#0b1220;
+  --hm-headerText:#e5e7eb;
+}
+body.hm-dark .hm-search{
+  background:#111827;
+}
+body.hm-dark .hm-search .input-group-text,
+body.hm-dark .hm-search .form-control{
+  background:#111827;
+  color:#e5e7eb;
+}
+body.hm-dark .hm-search .form-control::placeholder{
+  color:#9ca3af;
+}
+body.hm-dark .product-card .cat-badge{
+  background: #1f2937;
+  color: #c7d2fe;
+}
